@@ -28,12 +28,12 @@ public class quiz02 {
 		System.out.println();
 
 		// iterator로 출력
-		Iterator<String> keys = map.keySet().iterator();
-		while (keys.hasNext()) {
-			String key = keys.next();
-			System.out.println(key + " " + map.get(key));
+//		Iterator<String> keys = map.keySet().iterator();
+//		while (keys.hasNext()) {
+//			String key = keys.next();
+//			System.out.println(key + " " + map.get(key));
 		}
 
 	}
 
-}
+
